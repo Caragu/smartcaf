@@ -32,7 +32,7 @@ public class PhysicalEvaluation {
     private String consumoSustanciasPsicoactivas;
 	
 	@Column(name = "horas_sueno", nullable = false)
-    private String horaSueño;
+    private String horaSueno;
 	
 	@Column(name = "altura", nullable = false)
     private String altura;
@@ -131,20 +131,6 @@ public class PhysicalEvaluation {
 	}
 
 	/**
-	 * @return the horaSueño
-	 */
-	public String getHoraSueño() {
-		return horaSueño;
-	}
-
-	/**
-	 * @param horaSueño the horaSueño to set
-	 */
-	public void setHoraSueño(String horaSueño) {
-		this.horaSueño = horaSueño;
-	}
-
-	/**
 	 * @return the altura
 	 */
 	public String getAltura() {
@@ -198,6 +184,20 @@ public class PhysicalEvaluation {
 	 */
 	public void setObservacion(String observacion) {
 		this.observacion = observacion;
+	}
+
+	/**
+	 * @return the horaSueno
+	 */
+	public String getHoraSueno() {
+		return horaSueno;
+	}
+
+	/**
+	 * @param horaSueno the horaSueno to set
+	 */
+	public void setHoraSueno(String horaSueno) {
+		this.horaSueno = horaSueno;
 	}
 	
 }
