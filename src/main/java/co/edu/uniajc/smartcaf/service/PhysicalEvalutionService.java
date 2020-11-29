@@ -86,7 +86,7 @@ public class PhysicalEvalutionService {
 					userEvaluation.setLesionesFisicas(physicalEvaluationDetail.getLesionesFisicas());
 					userEvaluation.setConsumoMedicamentos(physicalEvaluationDetail.getConsumoMedicamentos());
 					userEvaluation.setConsumoSustanciasPsicoactivas(physicalEvaluationDetail.getConsumoSustanciasPsicoactivas());
-					userEvaluation.setHoraSueño(physicalEvaluationDetail.getHoraSueño());
+					userEvaluation.setHoraSueno(physicalEvaluationDetail.getHoraSueno());
 					userEvaluation.setAltura(physicalEvaluationDetail.getAltura());
 					userEvaluation.setPulso(physicalEvaluationDetail.getPulso());
 					userEvaluation.setObservacion(physicalEvaluationDetail.getObservacion());
